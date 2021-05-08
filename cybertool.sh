@@ -54,7 +54,7 @@ function exitProgram(){
 	tput cnorm; exit 0
 }
 
-# Mennu de la fase de reconocimiento
+# Menu de la fase de reconocimiento
 function recTools(){
 	clear
 	echo -e "\n\t${redColour}[!] FASE DE RECONOCIMIENTO ${endColour}"
