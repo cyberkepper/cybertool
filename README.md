@@ -1,6 +1,7 @@
 # cybertool
-## Author: Alex Grande @Cybermatica
-## Date: Mayo 2021 
+## Alex Grande @Cybermatica
+## Mayo 2021 
+## https//www.cybermatica.com
 
 - Herramienta automatizada para pentesting básico.
 - La idea un poco es crear una herramienta que englobe de forma automatizada las enumeraciones reconocimientos básicos de cualquier máquina.
