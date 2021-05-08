@@ -59,7 +59,7 @@ function recTools(){
 	clear
 	echo -e "\n\t${redColour}[!] FASE DE RECONOCIMIENTO ${endColour}"
 
-	if [ $targetIp != "" ]; then
+	if [ ! $targetIp ]; then
         echo -e "\n\t${redColour}[!] Necesitas introducir la ip del host remoto: ej: 10.10.10.10 ${endColour}" &&
         read targetIp
     fi
@@ -85,7 +85,7 @@ function enumTools(){
 	clear
 	echo -e "\n\t${redColour}[!] HERRAMIENTAS DE ENUMERACION WEB ${endColour}"
 
-	if [ $targetIp != "" ]; then
+	if [ ! $targetIp ]; then
 		echo -e "\n\t${redColour}[!] Necesitas introducir la ip del host ${endColour}"
 		menu
 	fi
